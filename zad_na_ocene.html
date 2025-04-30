@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="zad_na_ocene.js"></script>
+    <link rel="stylesheet" href="zad_na_ocene.css">
 </head>
 <body>
     
 
-
-
-    <label> Podaj szerokość <input type="number" id="width" value=""/></label> <br> <br>
+    <div id="container">
+    <h1> Wycena kosztów</h1>
+    <label> Podaj szerokość <input type="number" id="width" value=""/>m</label> <br> <br>
     <label>Podaj wysokość  <input type="number" id="height" value=""/> m</label><br><br>
     <label>Cena <input type="number" id="cost" value=""/> PLN</label><br><br>
-    <input type="button" value="Wyceń" onclick="calc()" />
-
+    <input type="button" value="Wyceń" onclick="calculate()" />
+    </div>
 
 
 
